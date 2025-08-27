@@ -1,6 +1,6 @@
  import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-const image = require("./mujahid.jpg");
+const image = require("../Screens/mujahid.jpg");
 export const ProfileScreen = () => {
   return (
     <View style={styles.screen}>

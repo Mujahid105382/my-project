@@ -1,8 +1,9 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react';
 
-import { LoginScreen } from './login'; 
-import { ProfileScreen } from './profile';
+import { LoginScreen } from '../Screens/login'; 
+import { ProfileScreen } from '../Screens/profile';
+import  SettingScreen  from '../Screens/SettingScreen';
 import { View } from 'react-native';
 
 
@@ -10,7 +11,7 @@ import { View } from 'react-native';
 export default function App() {
   return (
   
-    <ProfileScreen/>
+    <SettingScreen />
    // <ProfileScreen/>
 
   );
